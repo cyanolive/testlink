@@ -1427,7 +1427,7 @@ function initRenderTestCaseCfg(&$tcaseMgr)
                       'test_status_not_run', 'not_aplicable', 'bugs','tester','preconditions',
                       'step_number', 'step_actions', 'last_edit', 'created_on', 'execution_type',
                       'execution_type_manual','execution_type_auto','importance',
-                      'high_importance','medium_importance','low_importance',
+                      'high_importance','medium_importance','low_importance', 'bvt_importance',
                       'priority', 'high_priority','medium_priority','low_priority');
                       
     $labelsQty=count($labelsKeys);         
@@ -1438,7 +1438,8 @@ function initRenderTestCaseCfg(&$tcaseMgr)
     
     $config['importance'] = array(HIGH => $labels['high_importance'],
     							  MEDIUM => $labels['medium_importance'],
-    							  LOW => $labels['low_importance']);
+    							  LOW => $labels['low_importance'],
+    							  BVT => $labels['bvt_importance']);
 
     // TICKET 5288 - print priority when printing test plan
     $config['priority'] = array(HIGH => $labels['high_priority'],

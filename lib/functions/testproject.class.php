@@ -2707,7 +2707,7 @@ function _get_subtree_rec($node_id,&$pnode,$filters = null, $options = null)
 	
 	
 	// Approach Change - get all 
-	echo $sql;
+	//echo $sql;
 	
 	$rs = $this->db->fetchRowsIntoMap($sql,'id');
 	if( count($rs) == 0 )

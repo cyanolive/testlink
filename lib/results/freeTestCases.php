@@ -62,12 +62,13 @@ if(!is_null($gui->freeTestCases['items']))
 {
 	
 	$l18n = init_labels(array('low_importance' => null,'medium_importance' => null,
-							  'high_importance' => null, 'test_suite' => null, 'design' => null));
+							  'high_importance' => null, 'bvt_importance' => null, 'test_suite' => null, 'design' => null));
 	$il = config_get('importance_levels');
 	$impCols = array();
 	$impCols[$il[LOW]] = "<!-- 1 -->" . $l18n['low_importance'];
 	$impCols[$il[MEDIUM]] = "<!-- 2 -->" . $l18n['medium_importance'];
 	$impCols[$il[HIGH]] = "<!-- 3 -->" . $l18n['high_importance'];
+	$impCols[$il[BVT]] = "<!-- 4 -->" . $l18n['bvt_importance'];
 	
     if($gui->freeTestCases['allfree'])
     { 

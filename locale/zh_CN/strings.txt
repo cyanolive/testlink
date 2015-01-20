@@ -337,6 +337,7 @@ $TLS_container_title_testcase = $TLS_test_case;
 $TLS_high_priority = "高";
 $TLS_medium_priority = "中";
 $TLS_low_priority = "低";
+$TLS_bvt_importance = "BVT";
 $TLS_high_importance = "高";
 $TLS_medium_importance = "中";
 $TLS_low_importance = "低";

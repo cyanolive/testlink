@@ -47,7 +47,7 @@ $gui->filter_by['keyword'] = !is_null($gui->keywords);
 $gui->filter_by['requirement_doc_id'] = !is_null($reqSpecSet);
 
 $gui->option_importance = array(0 => '',HIGH => lang_get('high_importance'),MEDIUM => lang_get('medium_importance'), 
-                                LOW => lang_get('low_importance'));
+                                LOW => lang_get('low_importance'),BVT => lang_get('bvt_importance'));
 
 $smarty = new TLSmarty();
 $smarty->assign('gui',$gui);

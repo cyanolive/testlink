@@ -219,7 +219,7 @@ $tlCfg->loggerFilter = null; // default defined on logger.class.php ;
  * Configure using custom_config.inc.php
  * @uses lib/functions/email_api.php
  */
-$g_smtp_host        = '172.16.255.248';  # SMTP server MUST BE configured
+$g_smtp_host        = '172.16.255.249';  # SMTP server MUST BE configured
 # Configure using custom_config.inc.php
 $g_tl_admin_email     = 'test@bainainfo.com'; # for problem/error notification
 $g_from_email         = 'test@bainainfo.com';  # email sender

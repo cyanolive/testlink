@@ -341,6 +341,7 @@ $TLS_container_title_testcase = $TLS_test_case;
 $TLS_high_priority 		= "High";
 $TLS_medium_priority 	= "Medium";
 $TLS_low_priority 		= "Low";
+$TLS_bvt_importance 	= "BVT";
 $TLS_high_importance 	= "High";
 $TLS_medium_importance 	= "Medium";
 $TLS_low_importance 	= "Low";

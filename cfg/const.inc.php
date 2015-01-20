@@ -69,6 +69,7 @@ define('OK',		1 );
 define('ERROR',		0 );
 
 /** More Descriptive constant names */
+define('BVT',		4 );
 define('HIGH',		3 );
 define('MEDIUM', 	2 );
 define('LOW', 		1 );

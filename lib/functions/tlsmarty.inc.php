@@ -201,7 +201,8 @@ class TLSmarty extends Smarty
 
         $this->assign('gsmarty_option_importance', array(HIGH => lang_get('high_importance'), 
                                                          MEDIUM => lang_get('medium_importance'), 
-                                                         LOW => lang_get('low_importance')));
+                                                         LOW => lang_get('low_importance'), 
+                                                         BVT => lang_get('bvt_importance')));
            
         // this allows unclosed <head> tag to add more information and link; see inc_head.tpl
         $this->assign('openHead', 'no');
